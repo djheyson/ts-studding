@@ -1,7 +1,4 @@
-type TreeNode = {
-  left: TreeNode;
-  right: TreeNode;
-} | null;
+import { TreeNode } from "../TreeNode";
 
 /**
  * Definition for a binary tree node.
@@ -11,6 +8,7 @@ type TreeNode = {
  *     this.right = (right===undefined ? null : right)
  * }
  */
+
 /**
  * @param {TreeNode} root
  * @return {TreeNode}
